@@ -1,8 +1,8 @@
 //
 //  ServiceManager.swift
-//  MVVMDemo
+//  Virtusa Directory
 //
-//  Created by Preeteesh Remalli on 22/11/21.
+//  Created by Preeteesh Remalli on 20/10/22.
 //
 
 import Foundation

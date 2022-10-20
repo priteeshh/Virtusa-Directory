@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
-//  Space
+//  LoginVC.swift
+//  Virtusa Directory
 //
-//  Created by Preeteesh Remalli on 06/09/21.
+//  Created by Preeteesh Remalli on 20/10/22.
 //
 
 import UIKit
@@ -16,15 +16,13 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.userNameTF.text = "Preteesh"
+        self.userNameTF.text = "Preeteesh"
         self.passwordTF.text = "1234"
 
 
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        //titleLbl.text = self.user?.username
-        // Animate orbits to slowly rotate
         orbitImageView.startRotating(duration: 25, clockwise: false, delay: 1)
         innerOrbitImageView.startRotating(duration: 20, clockwise: true, delay: 1)
         navigationController?.setNavigationBarHidden(true, animated: animated)

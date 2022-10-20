@@ -9,21 +9,53 @@
 /* Begin PBXBuildFile section */
 		30567CB229011A56004CE21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CB129011A56004CE21E /* AppDelegate.swift */; };
 		30567CB429011A56004CE21E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CB329011A56004CE21E /* SceneDelegate.swift */; };
-		30567CB629011A56004CE21E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CB529011A56004CE21E /* ViewController.swift */; };
 		30567CB929011A56004CE21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30567CB729011A56004CE21E /* Main.storyboard */; };
 		30567CBB29011A59004CE21E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30567CBA29011A59004CE21E /* Assets.xcassets */; };
 		30567CBE29011A59004CE21E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30567CBC29011A59004CE21E /* LaunchScreen.storyboard */; };
+		30567CCA29011B61004CE21E /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CC929011B61004CE21E /* ServiceManager.swift */; };
+		30567CCC29011E72004CE21E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CCB29011E72004CE21E /* MainVC.swift */; };
+		30567CCE290120C5004CE21E /* PeopleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CCD290120C5004CE21E /* PeopleVC.swift */; };
+		30567CD229012DD5004CE21E /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CD129012DD5004CE21E /* RoomsVC.swift */; };
+		30567CD429013A24004CE21E /* PeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CD329013A24004CE21E /* PeopleModel.swift */; };
+		30567CD629013A30004CE21E /* RoomsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CD529013A30004CE21E /* RoomsModel.swift */; };
+		30567CD929013C1A004CE21E /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CD829013C1A004CE21E /* RoomCell.swift */; };
+		30567CDB29013C31004CE21E /* PeopleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CDA29013C31004CE21E /* PeopleCell.swift */; };
+		30567CDF29014A04004CE21E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CDD29014A04004CE21E /* Theme.swift */; };
+		30567CE029014A04004CE21E /* Theme.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30567CDE29014A04004CE21E /* Theme.xcassets */; };
+		30567CE329014BC4004CE21E /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CE129014BC4004CE21E /* AppTextField.swift */; };
+		30567CE429014BC4004CE21E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CE229014BC4004CE21E /* UIViewExtension.swift */; };
+		30567CE629014BE6004CE21E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CE529014BE6004CE21E /* LoginVC.swift */; };
+		30567CE82901630C004CE21E /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CE72901630C004CE21E /* EmployeeViewModel.swift */; };
+		30567CEA290187DF004CE21E /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CE9290187DF004CE21E /* RoomsViewModel.swift */; };
+		30567CED2901996E004CE21E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CEC2901996E004CE21E /* Constants.swift */; };
+		30567CEF29019B14004CE21E /* EmployeeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30567CEE29019B14004CE21E /* EmployeeDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30567CAE29011A56004CE21E /* Virtusa Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Virtusa Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30567CB129011A56004CE21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30567CB329011A56004CE21E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30567CB529011A56004CE21E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30567CB829011A56004CE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30567CBA29011A59004CE21E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30567CBD29011A59004CE21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30567CBF29011A59004CE21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30567CC929011B61004CE21E /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		30567CCB29011E72004CE21E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		30567CCD290120C5004CE21E /* PeopleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleVC.swift; sourceTree = "<group>"; };
+		30567CD129012DD5004CE21E /* RoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVC.swift; sourceTree = "<group>"; };
+		30567CD329013A24004CE21E /* PeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleModel.swift; sourceTree = "<group>"; };
+		30567CD529013A30004CE21E /* RoomsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsModel.swift; sourceTree = "<group>"; };
+		30567CD829013C1A004CE21E /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		30567CDA29013C31004CE21E /* PeopleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleCell.swift; sourceTree = "<group>"; };
+		30567CDD29014A04004CE21E /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		30567CDE29014A04004CE21E /* Theme.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Theme.xcassets; sourceTree = "<group>"; };
+		30567CE129014BC4004CE21E /* AppTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		30567CE229014BC4004CE21E /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		30567CE529014BE6004CE21E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		30567CE72901630C004CE21E /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
+		30567CE9290187DF004CE21E /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		30567CEC2901996E004CE21E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		30567CEE29019B14004CE21E /* EmployeeDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,87 @@
 		30567CB029011A56004CE21E /* Virtusa Directory */ = {
 			isa = PBXGroup;
 			children = (
+				30567CEB29019961004CE21E /* Helper */,
+				30567CDC290149D2004CE21E /* Theme */,
+				30567CD729013BF7004CE21E /* View */,
+				30567CC829011B39004CE21E /* Controller */,
+				30567CC729011B2A004CE21E /* Network */,
+				30567CC629011B1F004CE21E /* Model */,
+				30567CC529011B17004CE21E /* ViewModel */,
 				30567CB129011A56004CE21E /* AppDelegate.swift */,
 				30567CB329011A56004CE21E /* SceneDelegate.swift */,
-				30567CB529011A56004CE21E /* ViewController.swift */,
 				30567CB729011A56004CE21E /* Main.storyboard */,
 				30567CBA29011A59004CE21E /* Assets.xcassets */,
 				30567CBC29011A59004CE21E /* LaunchScreen.storyboard */,
 				30567CBF29011A59004CE21E /* Info.plist */,
 			);
 			path = "Virtusa Directory";
+			sourceTree = "<group>";
+		};
+		30567CC529011B17004CE21E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30567CE72901630C004CE21E /* EmployeeViewModel.swift */,
+				30567CE9290187DF004CE21E /* RoomsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30567CC629011B1F004CE21E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30567CD329013A24004CE21E /* PeopleModel.swift */,
+				30567CD529013A30004CE21E /* RoomsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30567CC729011B2A004CE21E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				30567CC929011B61004CE21E /* ServiceManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		30567CC829011B39004CE21E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30567CE529014BE6004CE21E /* LoginVC.swift */,
+				30567CCB29011E72004CE21E /* MainVC.swift */,
+				30567CCD290120C5004CE21E /* PeopleVC.swift */,
+				30567CD129012DD5004CE21E /* RoomsVC.swift */,
+				30567CEE29019B14004CE21E /* EmployeeDetailsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		30567CD729013BF7004CE21E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30567CE129014BC4004CE21E /* AppTextField.swift */,
+				30567CE229014BC4004CE21E /* UIViewExtension.swift */,
+				30567CD829013C1A004CE21E /* RoomCell.swift */,
+				30567CDA29013C31004CE21E /* PeopleCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30567CDC290149D2004CE21E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				30567CDD29014A04004CE21E /* Theme.swift */,
+				30567CDE29014A04004CE21E /* Theme.xcassets */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		30567CEB29019961004CE21E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				30567CEC2901996E004CE21E /* Constants.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30567CBE29011A59004CE21E /* LaunchScreen.storyboard in Resources */,
+				30567CE029014A04004CE21E /* Theme.xcassets in Resources */,
 				30567CBB29011A59004CE21E /* Assets.xcassets in Resources */,
 				30567CB929011A56004CE21E /* Main.storyboard in Resources */,
 			);
@@ -138,9 +243,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30567CB629011A56004CE21E /* ViewController.swift in Sources */,
 				30567CB229011A56004CE21E /* AppDelegate.swift in Sources */,
+				30567CED2901996E004CE21E /* Constants.swift in Sources */,
+				30567CD229012DD5004CE21E /* RoomsVC.swift in Sources */,
+				30567CE629014BE6004CE21E /* LoginVC.swift in Sources */,
+				30567CDB29013C31004CE21E /* PeopleCell.swift in Sources */,
 				30567CB429011A56004CE21E /* SceneDelegate.swift in Sources */,
+				30567CDF29014A04004CE21E /* Theme.swift in Sources */,
+				30567CD429013A24004CE21E /* PeopleModel.swift in Sources */,
+				30567CD629013A30004CE21E /* RoomsModel.swift in Sources */,
+				30567CEF29019B14004CE21E /* EmployeeDetailsVC.swift in Sources */,
+				30567CCC29011E72004CE21E /* MainVC.swift in Sources */,
+				30567CCE290120C5004CE21E /* PeopleVC.swift in Sources */,
+				30567CE429014BC4004CE21E /* UIViewExtension.swift in Sources */,
+				30567CEA290187DF004CE21E /* RoomsViewModel.swift in Sources */,
+				30567CD929013C1A004CE21E /* RoomCell.swift in Sources */,
+				30567CCA29011B61004CE21E /* ServiceManager.swift in Sources */,
+				30567CE82901630C004CE21E /* EmployeeViewModel.swift in Sources */,
+				30567CE329014BC4004CE21E /* AppTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

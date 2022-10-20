@@ -1,9 +1,8 @@
 //
 //  AppTextField.swift
-//  LoginWithScrolling
+//  Virtusa Directory
 //
-//  Created by Mark Moeykens on 2/8/19.
-//  Copyright © 2019 Mark Moeykens. All rights reserved.
+//  Created by Preeteesh Remalli on 20/10/22.
 //
 
 import UIKit

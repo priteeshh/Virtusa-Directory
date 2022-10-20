@@ -6,3 +6,11 @@
 //
 
 import Foundation
+struct RoomsModel: Codable {
+    let createdAt: String?
+    let isOccupied: Bool?
+    let maxOccupancy: Int?
+    let id: String?
+}
+
+typealias Rooms = [RoomsModel]
